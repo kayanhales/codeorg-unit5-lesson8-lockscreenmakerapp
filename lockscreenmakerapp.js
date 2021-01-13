@@ -31,7 +31,7 @@ for (var i=0; i < 20; i++){
 
 //change colors
 onEvent("colorsButton", "click", function( ) {
-  setProperty("homeScreen", "background-color", rgb(randomNumber(0,255),randomNumber(0,255),randomNumber(0,255)));
+    setProperty("homeScreen", "background-color", rgb(randomNumber(0,255),randomNumber(0,255),randomNumber(0,255)));
 	for (var i=0; i<20; i++){
     setProperty("icon"+i, "icon-color", rgb(randomNumber(0,255),randomNumber(0,255),randomNumber(0,255)));
   }
